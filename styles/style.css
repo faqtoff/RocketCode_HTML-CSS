@@ -1,3 +1,4 @@
+@import url("./index.css");
 :root {
   --color-primary: #343353;
   --color-secondary: #ff4c60;
@@ -28,6 +29,35 @@
   background-color: var(--color-primary);
 }
 
+.navbar_desktop {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 50px;
+  width: 290px;
+}
+
+.navbar_desktop > span {
+  font-size: 28px;
+  color: aliceblue;
+  font-weight: 300;
+  margin-top: 60px;
+  margin-bottom: 103px;
+}
+
+.navbar_desktop > a {
+  font-size: 16px;
+  font-weight: 300;
+  color: aliceblue;
+  text-decoration: none;
+  margin: 8px 0;
+}
+.navbar_icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+}
+
 .full-container {
   overflow-y: scroll; /*Con esta propiedas logramos que el eje y de nuestra pagina sea scrolleable */
   scroll-behavior: smooth; /*Con esta propiedas logramos que las anclas de nuestra pagina se vean "suavizadas"*/
@@ -53,6 +83,17 @@
 .banner-container__scroll {
   position: absolute;
   bottom: 26px;
+  left: calc(50% - 41.5px);
+  color: aliceblue;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.scroll-icon {
+  margin-top: 12px;
+  width: 16px;
 }
 
 /* SKILS */
@@ -106,11 +147,11 @@
   .navbar-close {
     display: none;
   }
-  
+
   .navbar-input:checked ~ .navbar-close {
     display: block;
   }
-  
+
   .navbar-input:checked ~ .navbar-open {
     display: none;
   }
@@ -118,7 +159,7 @@
   .navbar-contet {
     display: none;
   }
-  
+
   .navbar-input:checked ~ .navbar-contet {
     display: flex;
   }

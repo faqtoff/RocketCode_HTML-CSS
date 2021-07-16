@@ -1,61 +1,150 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/style.css">
-</head>
-<body>
-  <div class="main-container">
-    <section class="navbar-container__desktop">
-    </section>
-    <div class="full-container">
-      <section class="navbar-container__mobile">
-        <nav class="navbar-container__mobile__list">
-          <label for="navbar" class="navbar-container__mobile__list__label">
-            <input type="checkbox" id="navbar" class="navbar-input" />
-            <div class="navbar-open">
-              <i class="fas fa-bars"></i>
-            </div>
-            <div class="navbar-close">
-              <i class="fas fa-times"></i>
-            </div>
-            <div class="navbar-contet">
-              <a href="index.html">Home</a>
-            </div>
-          </label>
+<html lang="es">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./styles/style.css">
+  </head>
+
+  <body>
+    <div class="main-container">
+
+      <section class="navbar-container__desktop">
+        <nav class="navbar_desktop">
+              <span>FaqToff</span>
+              <a href="index.html">
+                <img class="navbar_icon" src="./imagenes/icons/home.svg" alt="Home">
+                Home
+              </a>
+              <a href="index.html">
+                <img class="navbar_icon" src="./imagenes/icons/user.svg" alt="Home">
+                 Sobre Mi
+              </a>
+              <a href="index.html">
+                <img class="navbar_icon" src="./imagenes/icons/portfolio.svg" alt="Home">
+                Servicios
+              </a>
+              <a href="index.html">
+                <img class="navbar_icon" src="./imagenes/icons/birrete.svg" alt="Home">
+                Experiencia
+              </a>
+              <a href="index.html">
+                <img class="navbar_icon" src="./imagenes/icons/home.svg" alt="Home">
+                Mis Trabajos
+              </a>
+              <a href="index.html">
+                <img class="navbar_icon" src="./imagenes/icons/burbujas-de-chat-con-puntos-suspensivos.svg" alt="Home">
+                Contactame
+              </a>
         </nav>
+
       </section>
-      <section class="banner-container" id="home">
-        <div class="background-image"></div>
-        <a class="banner-container__scroll" href="#skils">
-          <span>Scroll Down</span>
-        </a>
-      </section>
-      <section class="experience-container container" id="experience">
-        <h3 class="title-content">Experiencia</h3>
-        <div class="experience-container__topics">
-          <div class="experience-container__topics__card">
-            <div class="experience-container__topics__card__data">
-              <i class="fas fa-graduation-cap"></i>
-              <p class="experience-container__topics__card__data__description">Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+
+      <div class="full-container">
+
+        <section class="navbar-container__mobile">
+
+          <nav class="navbar-container__mobile__list">
+            <label for="navbar" class="navbar-container__mobile__list__label">
+              <input type="checkbox" id="navbar" class="navbar-input" />
+              <div class="navbar-open">
+                <i class="fas fa-bars"></i>
+              </div>
+              <div class="navbar-close">
+                <i class="fas fa-times"></i>
+              </div>
+              <div class="navbar-contet">
+                <a href="index.html">Home</a>
+              </div>
+            </label>
+          </nav>
+
+        </section>
+
+        <section class="banner-container" id="home">
+
+          <div class="background-image">
+            <div class="banner-info">
+              <img class="avatar" src="./imagenes/avatar.svg" alt="Avatar">
+              <h1 class="profile-name">Facundo Toffolo Pasquini</h1>
+              <span class="profile-span">Frontend Developer</span>
+              <div class="social-buttons">
+                <a class="linkedin" href="#"></a>
+                <a class="github" href="#"></a>
+                <a class="twitter" href="#"></a>
+                <a class="instagram" href="#"></a>
+              </div>
+              <button class="contactame">Contactame</button>
+            </div>
+
+          </div>
+
+          <a class="banner-container__scroll" href="#skils">
+            <span>Scroll Down</span>
+            <img class="scroll-icon" src="./imagenes/icons/scroll.png" alt="Scroll">
+          </a>
+
+        </section>
+
+        <section class="about-me">
+          <h2>Sobre Mi</h2>
+          <div class="about-me-container">
+            <img class="avatar" src="./imagenes/avatar-2.svg" alt="Avatar">
+            <div class="card">
+              <div class="col">
+                <p>Hola! Soy desarrollador Frontend.</p>
+                <p>Actualmente estudio Ingenieria Industrial en la UTN.BA y realizo trabajos web a pedido</p>
+                <button class="contactame">Ver Curriculum</button>
+              </div>
+              <div class="col">
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>UX/UI</p>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section class="works-container container" id="works">
-        <h3 class="title-content">Mis trabajos</h3>
-        <div class="works-container__topics">
-          <div class="works-container__topics__card">
-            <div>Imagen de trabajo</div>
-            <div class="works-container__topics__card__mask">
-              <span>Photo magic</span>
+        </section>
+
+        <section class="services">
+          <h2>Servicios</h2>
+
+        </section>
+
+        <section class="experience-container container" id="experience">
+
+          <h3 class="title-content">Experiencia</h3>
+
+          <div class="experience-container__topics">
+
+            <div class="experience-container__topics__card">
+              <div class="experience-container__topics__card__data">
+                <i class="fas fa-graduation-cap"></i>
+                <p class="experience-container__topics__card__data__description">Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <section class="works-container container" id="works">
+          <h3 class="title-content">Mis trabajos</h3>
+          <div class="works-container__topics">
+            <div class="works-container__topics__card">
+              <div>Imagen de trabajo</div>
+              <div class="works-container__topics__card__mask">
+                <span>Photo magic</span>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+
+      </div>
+
     </div>
-  </div>
-  <script src="https://kit.fontawesome.com/7aa36192fa.js" crossorigin="anonymous"></script>
-</body>
+    <script src="https://kit.fontawesome.com/7aa36192fa.js" crossorigin="anonymous"></script>
+
+  </body>
+
 </html>
