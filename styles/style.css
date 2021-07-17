@@ -143,9 +143,19 @@
     background-color: var(--color-primary);
   }
 
+  .navbar-open,
+  .navbar-close {
+    color: var(--color-terciary);
+    padding: 1rem;
+    position: absolute;
+    z-index: 1;
+  }
+
   .navbar-input,
   .navbar-close {
     display: none;
+    position: absolute;
+    z-index: 1;
   }
 
   .navbar-input:checked ~ .navbar-close {
@@ -159,8 +169,16 @@
   .navbar-contet {
     display: none;
   }
+  .navbar-contet > a {
+    color: white;
+    text-decoration: none;
+  }
 
   .navbar-input:checked ~ .navbar-contet {
     display: flex;
+    margin: 2.5rem 0 0 2.5rem;
+    flex-direction: column;
+    position: absolute;
+    z-index: 1;
   }
 }

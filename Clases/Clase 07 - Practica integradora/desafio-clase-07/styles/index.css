@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&display=swap");
+:root {
+  --color1: #afb3c0;
+  --color2: #ecb8c3;
+  --color3: #5f6478;
+  --color4: #fafafa;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card {
+  border-radius: 10px;
+  border-left: 10px solid pink;
+  padding: 20px;
+  box-shadow: 0 0 8px 0 rgba(144, 149, 161, 0.15);
+  max-width: 35%;
+  font-family: "Nunito", sans-serif;
+}
+
+.card > span {
+  color: var(--color1);
+}
+.card > h1 {
+  color: var(--color2);
+  font-weight: bold;
+}
+
+.card > p {
+  color: var(--color3);
+}
+
+.avatar {
+  display: inline-block;
+  border-radius: 50px;
+  background-image: url("../../../../imagenes/avatar.svg");
+  background-size: cover;
+  width: 55px;
+  height: 55px;
+}
