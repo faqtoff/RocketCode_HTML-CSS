@@ -3,166 +3,139 @@
 
   <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./normalize.css">
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./index.css">
+    <title>FaqToff</title>
   </head>
 
   <body>
-    <div class="main-container">
 
-      <section class="navbar-container__desktop">
-        <nav class="navbar_desktop">
-              <span>FaqToff</span>
-              <a href="#home">
-                <img class="navbar_icon" src="./imagenes/icons/home.svg" alt="Home">
+    <aside class="navbar-container">
+
+        <label for="navbar" class="navbar-container__mobile__list__label">
+            <input type="checkbox" id="navbar" class="navbar-input" />
+            <div class="navbar-open">
+              <i class="fas fa-bars"></i>
+            </div>
+            <div class="navbar-close">
+              <i class="fas fa-times"></i>
+            </div>
+
+        <nav class="navbar">
+            <span>FaqToff</span>
+            <a href="#home">
+                <img class="navbar-icon" src="./assets/icons//home.svg" alt="Home">
                 Home
-              </a>
-              <a href="#skils">
-                <img class="navbar_icon" src="./imagenes/icons/user.svg" alt="skils">
-                 Sobre Mi
-              </a>
-              <a href="#services">
-                <img class="navbar_icon" src="./imagenes/icons/portfolio.svg" alt="services">
+            </a>
+            <a href="#skils">
+                <img class="navbar-icon" src="./assets/icons/user.svg" alt="skils">
+                Sobre Mi
+            </a>
+            <a href="#services">
+                <img class="navbar-icon" src="./assets/icons/portfolio.svg" alt="services">
                 Servicios
-              </a>
-              <a href="#experience">
-                <img class="navbar_icon" src="./imagenes/icons/birrete.svg" alt="experience">
+            </a>
+            <a href="#experience">
+                <img class="navbar-icon" src="./assets/icons/birrete.svg" alt="experience">
                 Experiencia
-              </a>
-              <a href="#works">
-                <img class="navbar_icon" src="./imagenes/icons/stacked-files.svg" alt="works">
+            </a>
+            <a href="#works">
+                <img class="navbar-icon" src="./assets/icons/stacked-files.svg" alt="works">
                 Mis Trabajos
-              </a>
-              <a href="#contact">
-                <img class="navbar_icon" src="./imagenes/icons/burbujas-de-chat-con-puntos-suspensivos.svg" alt="contact">
+            </a>
+            <a href="#contact">
+                <img class="navbar-icon" src="./assets/icons/burbujas-de-chat-con-puntos-suspensivos.svg" alt="contact">
                 Contactame
-              </a>
+            </a>
         </nav>
+        </label>
+    </aside>
+
+    <main>
+    
+      <section class="works-container container" id="works">
+        <a class="secondary" href="./index.html#works">Volver</a>
+        <h3 class="title-content">Mis trabajos</h3>
+        <div class="works-container__topics">
+
+          <div class="works-container__topics__card card">
+            <img class="works-img" src="./assets/work/trabajo-1.svg" alt="">
+            <div class="works-container__topics__card__mask">
+              <span>Photo magic</span>
+            </div>
+          </div>
+
+          <div class="works-container__topics__card card">
+            <img class="works-img" src="./assets/work/trabajo-2.svg" alt="">
+            <div class="works-container__topics__card__mask">
+              <span>Photo magic</span>
+            </div>
+          </div>
+
+          <div class="works-container__topics__card card">
+            <img class="works-img" src="./assets/work/trabajo-3.svg" alt="">
+            <div class="works-container__topics__card__mask">
+               <span>Photo magic</span>
+            </div>
+          </div>
+
+          <div class="works-container__topics__card card">
+            <img class="works-img" src="./assets/work/trabajo-4.svg" alt="">
+            <div class="works-container__topics__card__mask">
+              <span>Photo magic</span>
+            </div>
+          </div>
+
+          <div class="works-container__topics__card card">
+            <img class="works-img" src="./assets/work/trabajo-5.svg" alt="">
+            <div class="works-container__topics__card__mask">
+              <span>Photo magic</span>
+            </div>
+          </div>
+
+          <div class="works-container__topics__card card">
+            <img class="works-img" src="./assets/work/trabajo-6.svg" alt="">
+            <div class="works-container__topics__card__mask">
+              <span>Photo magic</span>
+            </div>
+          </div>
+
+        <div class="works-container__topics__card card">
+          <img class="works-img" src="./assets/work/trabajo-7.svg" alt="">
+          <div class="works-container__topics__card__mask">
+            <span>Photo magic</span>
+          </div>
+        </div>
+      
+        <div class="works-container__topics__card card">
+          <img class="works-img" src="./assets/work/trabajo-8.svg" alt="">
+          <div class="works-container__topics__card__mask">
+            <span>Photo magic</span>
+          </div>
+        </div>
+    
+        <div class="works-container__topics__card card">
+          <img class="works-img" src="./assets/work/trabajo-9.svg" alt="">
+          <div class="works-container__topics__card__mask">
+            <span>Photo magic</span>
+          </div>
+        </div>
 
       </section>
-
-      <div class="full-container">
-
-        <section class="navbar-container__mobile">
-
-          <nav class="navbar-container__mobile__list">
-            <label for="navbar" class="navbar-container__mobile__list__label">
-              <input type="checkbox" id="navbar" class="navbar-input" />
-              <div class="navbar-open">
-                <i class="fas fa-bars"></i>
-              </div>
-              <div class="navbar-close">
-                <i class="fas fa-times"></i>
-              </div>
-              <div class="navbar-contet">
-                <a href="index.html">
-                  <img class="navbar_icon" src="./imagenes/icons/home.svg" alt="Home">
-                  Home
-                </a>
-                <a href="index.html">
-                  <img class="navbar_icon" src="./imagenes/icons/user.svg" alt="Home">
-                   Sobre Mi
-                </a>
-                <a href="index.html">
-                  <img class="navbar_icon" src="./imagenes/icons/portfolio.svg" alt="Home">
-                  Servicios
-                </a>
-                <a href="index.html">
-                  <img class="navbar_icon" src="./imagenes/icons/birrete.svg" alt="Home">
-                  Experiencia
-                </a>
-                <a href="index.html">
-                  <img class="navbar_icon" src="./imagenes/icons/stacked-files.svg" alt="Home">
-                  Mis Trabajos
-                </a>
-                <a href="index.html">
-                  <img class="navbar_icon" src="./imagenes/icons/burbujas-de-chat-con-puntos-suspensivos.svg" alt="Home">
-                  Contactame
-                </a>
-              </div>
-            </label>
-          </nav>
-
-        </section>
   
-        <section class="works-container container" id="works">
-            <a class="volver" href="./index.html">Volver</a>
-            <h3 class="title-content">Mis trabajos</h3>
-            <div class="works-container__topics">
-              <div class="works-container__topics__card card">
-                <img class="works-img" src="./imagenes/trabajo-1.svg" alt="">
-                <div class="works-container__topics__card__mask">
-                  <span>Photo magic</span>
-                </div>
-              </div>
-              <div class="works-container__topics__card card">
-                <img class="works-img" src="./imagenes/trabajo-2.svg" alt="">
-                <div class="works-container__topics__card__mask">
-                  <span>Photo magic</span>
-                </div>
-              </div>
-              <div class="works-container__topics__card card">
-                <img class="works-img" src="./imagenes/trabajo-3.svg" alt="">
-                <div class="works-container__topics__card__mask">
-                  <span>Photo magic</span>
-                </div>
-              </div>
-              <div class="works-container__topics__card card">
-                <img class="works-img" src="./imagenes/trabajo-4.svg" alt="">
-                <div class="works-container__topics__card__mask">
-                  <span>Photo magic</span>
-                </div>
-              </div>
-              <div class="works-container__topics__card card">
-                <img class="works-img" src="./imagenes/trabajo-5.svg" alt="">
-                <div class="works-container__topics__card__mask">
-                  <span>Photo magic</span>
-                </div>
-              </div>
-              <div class="works-container__topics__card card">
-                <img class="works-img" src="./imagenes/trabajo-6.svg" alt="">
-                <div class="works-container__topics__card__mask">
-                  <span>Photo magic</span>
-                </div>
-              </div>
-              <div class="works-container__topics__card card">
-                <img class="works-img" src="./imagenes/trabajo-7.svg" alt="">
-                <div class="works-container__topics__card__mask">
-                  <span>Photo magic</span>
-                </div>
-              </div>
-              <div class="works-container__topics__card card">
-                <img class="works-img" src="./imagenes/trabajo-8.svg" alt="">
-                <div class="works-container__topics__card__mask">
-                  <span>Photo magic</span>
-                </div>
-              </div>
-              <div class="works-container__topics__card card">
-                <img class="works-img" src="./imagenes/trabajo-9.svg" alt="">
-                <div class="works-container__topics__card__mask">
-                  <span>Photo magic</span>
-                </div>
-              </div>
-            </div>
-        </section>
+      <section class="footer">
+        <span>FaqToff</span>
+            <div class="btn-social-desk">
+            <a class="btn-social bg-linkedin" href="https://www.linkedin.com/in/faqtoff" target="blank"></a>
+            <a class="btn-social bg-github" href="https://github.com/faqtoff" target="blank"></a>
+            <a class="btn-social bg-twitter" href="#"></a>
+            <a class="btn-social bg-instagram" href="#"></a>
+        </div>
+      </section>
 
-        <section class="footer">
-          <span>FaqToff</span>
-
-          <div class="social-buttons">
-            <a class="linkedin" href="#"></a>
-            <a class="github" href="#"></a>
-            <a class="twitter" href="#"></a>
-            <a class="instagram" href="#"></a>
-          </div>
-        </section>
-
-      </div>
-
-    </div>
+    </main>
     <script src="https://kit.fontawesome.com/7aa36192fa.js" crossorigin="anonymous"></script>
-
   </body>
-
 </html>
