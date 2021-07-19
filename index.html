@@ -14,28 +14,28 @@
       <section class="navbar-container__desktop">
         <nav class="navbar_desktop">
               <span>FaqToff</span>
-              <a href="index.html">
+              <a href="#home">
                 <img class="navbar_icon" src="./imagenes/icons/home.svg" alt="Home">
                 Home
               </a>
-              <a href="index.html">
-                <img class="navbar_icon" src="./imagenes/icons/user.svg" alt="Home">
+              <a href="#skils">
+                <img class="navbar_icon" src="./imagenes/icons/user.svg" alt="skils">
                  Sobre Mi
               </a>
-              <a href="index.html">
-                <img class="navbar_icon" src="./imagenes/icons/portfolio.svg" alt="Home">
+              <a href="#services">
+                <img class="navbar_icon" src="./imagenes/icons/portfolio.svg" alt="services">
                 Servicios
               </a>
-              <a href="index.html">
-                <img class="navbar_icon" src="./imagenes/icons/birrete.svg" alt="Home">
+              <a href="#experience">
+                <img class="navbar_icon" src="./imagenes/icons/birrete.svg" alt="experience">
                 Experiencia
               </a>
-              <a href="index.html">
-                <img class="navbar_icon" src="./imagenes/icons/stacked-files.svg" alt="Home">
+              <a href="#works">
+                <img class="navbar_icon" src="./imagenes/icons/stacked-files.svg" alt="works">
                 Mis Trabajos
               </a>
-              <a href="index.html">
-                <img class="navbar_icon" src="./imagenes/icons/burbujas-de-chat-con-puntos-suspensivos.svg" alt="Home">
+              <a href="#contact">
+                <img class="navbar_icon" src="./imagenes/icons/burbujas-de-chat-con-puntos-suspensivos.svg" alt="contact">
                 Contactame
               </a>
         </nav>
@@ -111,55 +111,187 @@
 
         </section>
 
-        <section class="about-me">
-          <h2>Sobre Mi</h2>
-          <div class="about-me-container">
-            <img class="avatar" src="./imagenes/avatar-2.svg" alt="Avatar">
-            <div class="card">
-              <div class="col">
-                <p>Hola! Soy desarrollador Frontend.</p>
-                <p>Actualmente estudio Ingenieria Industrial en la UTN.BA y realizo trabajos web a pedido</p>
-                <button class="contactame">Ver Curriculum</button>
-              </div>
-              <div class="col">
-                <p>HTML</p>
-                <p>CSS</p>
-                <p>UX/UI</p>
+        <section class="about-me container" id="skils">
+            <h2 class="title-content">Sobre Mi</h2>
+            <div class="about-me-container">
+              <img class="avatar" src="./imagenes/avatar-2.svg" alt="Avatar">
+              <div class="card">
+                <div class="col">
+                  <p>Hola! Soy desarrollador Frontend.</p>
+                  <p>Actualmente estudio Ingenieria Industrial en la UTN.BA y realizo trabajos web a pedido</p>
+                  <button class="contactame">Ver Curriculum</button>
+                </div>
+                <div class="col">
+                  <p>HTML</p>
+                  <div class="progess">
+                    <div 
+                      class="progress-bar bg-primary"
+                      style="width: 25%">
+                    </div>
+                  </div>
+                  <p>CSS</p>
+                  <div class="progess">
+                    <div 
+                      class="progress-bar bg-secondary"
+                      style="width: 25%">
+                    </div>
+                  </div>
+                  <p>UX/UI</p>
+                  <div class="progess">
+                    <div 
+                      class="progress-bar bg-terciary"
+                      style="width: 25%">
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
         </section>
-
-        <section class="services">
-          <h2>Servicios</h2>
-
+  
+        <section class="services container" id="services">
+            <h2 class="title-content">Servicios</h2>
+            <div class="services-container">
+              <div class="card bg-primary">
+                <img src="./imagenes/dev.svg" alt="HTML">
+                <h3>HTML</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+              <div class="card bg-secondary">
+                <img src="./imagenes/css.svg" alt="CSS">
+                <h3>CSS</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+  
+              </div>
+              <div class="card bg-terciary">
+                <img src="./imagenes/ux.svg" alt="UX">
+                <h3>UX/IU</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+  
+              </div>
+            </div>
         </section>
-
+  
         <section class="experience-container container" id="experience">
-
-          <h3 class="title-content">Experiencia</h3>
-
-          <div class="experience-container__topics">
-
-            <div class="experience-container__topics__card">
-              <div class="experience-container__topics__card__data">
-                <i class="fas fa-graduation-cap"></i>
-                <p class="experience-container__topics__card__data__description">Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+  
+            <h2 class="title-content">Experiencia</h2>
+  
+            <div class="experience-container__topics">
+  
+              <div class="experience-container__topics__card card">
+                <div class="experience-container__topics__card__data">
+                  <i class="fas fa-graduation-cap"></i>
+                  <span class="fecha">2019 - actualidad</span>
+                  <h3>Academy</h3>
+                  <p class="experience-container__topics__card__data__description">Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+                </div>
+                <div class="experience-container__topics__card__data">
+                  <i class="fas fa-graduation-cap"></i>
+                  <span class="fecha">2019 - actualidad</span>
+                  <h3>Academy</h3>
+                  <p class="experience-container__topics__card__data__description">Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+                </div>
+                <div class="experience-container__topics__card__data">
+                  <i class="fas fa-graduation-cap"></i>
+                  <span class="fecha">2019 - actualidad</span>
+                  <h3>Academy</h3>
+                  <p class="experience-container__topics__card__data__description">Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+                </div>
+              </div>
+  
+              <div class="experience-container__topics__card card">
+                <div class="experience-container__topics__card__data">
+                  <i class="fas fa-briefcase"></i>
+                  <span class="fecha">2019 - actualidad</span>
+                  <h3>Academy</h3>
+                  <p class="experience-container__topics__card__data__description">Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+                </div>
+                <div class="experience-container__topics__card__data">
+                  <i class="fas fa-briefcase"></i>
+                  <span class="fecha">2019 - actualidad</span>
+                  <h3>Academy</h3>
+                  <p class="experience-container__topics__card__data__description">Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+                </div>
+                <div class="experience-container__topics__card__data">
+                  <i class="fas fa-briefcase"></i>
+                  <span class="fecha">2019 - actualidad</span>
+                  <h3>Academy</h3>
+                  <p class="experience-container__topics__card__data__description">Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+                </div>
+              </div>
+  
+            </div>
+  
+        </section>
+  
+        <section class="works-container container" id="works">
+            <h3 class="title-content">Mis trabajos</h3>
+            <div class="works-container__topics">
+              <div class="works-container__topics__card card">
+                <img class="works-img" src="./imagenes/trabajo-1.svg" alt="">
+                <div class="works-container__topics__card__mask">
+                  <span>Photo magic</span>
+                </div>
+              </div>
+              <div class="works-container__topics__card card">
+                <img class="works-img" src="./imagenes/trabajo-2.svg" alt="">
+                <div class="works-container__topics__card__mask">
+                  <span>Photo magic</span>
+                </div>
+              </div>
+              <div class="works-container__topics__card card">
+                <img class="works-img" src="./imagenes/trabajo-3.svg" alt="">
+                <div class="works-container__topics__card__mask">
+                  <span>Photo magic</span>
+                </div>
+              </div>
+              <div class="works-container__topics__card card">
+                <img class="works-img" src="./imagenes/trabajo-4.svg" alt="">
+                <div class="works-container__topics__card__mask">
+                  <span>Photo magic</span>
+                </div>
+              </div>
+              <div class="works-container__topics__card card">
+                <img class="works-img" src="./imagenes/trabajo-5.svg" alt="">
+                <div class="works-container__topics__card__mask">
+                  <span>Photo magic</span>
+                </div>
+              </div>
+              <div class="works-container__topics__card card">
+                <img class="works-img" src="./imagenes/trabajo-6.svg" alt="">
+                <div class="works-container__topics__card__mask">
+                  <span>Photo magic</span>
+                </div>
               </div>
             </div>
-
-          </div>
+            <button class="contactame">Ver todos</button>
+        </section>
+  
+        <section class="contacto-container container" id="contact">
+            <h3 class="title-content">Contactame</h3>
+            <div class="formulario">
+              <div class="col">
+                <h3>Enviame un mensaje!</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis et ab aut, repellendus quia facere animi doloremque fugiat magnam. Dolor accusantium, labore non possimus doloribus dolorum praesentium nobis culpa tenetur?</p>
+              </div>
+              <div class="col">
+                <form action="">
+                  <input type="text" placeholder="Nombre">
+                  <input type="email" placeholder="Email">
+                  <textarea name="mensaje" id="" placeholder="Tu mensaje"></textarea>
+                  <button class="contactame">Enviar</button>
+                </form>
+              </div>
+            </div>
         </section>
 
-        <section class="works-container container" id="works">
-          <h3 class="title-content">Mis trabajos</h3>
-          <div class="works-container__topics">
-            <div class="works-container__topics__card">
-              <div>Imagen de trabajo</div>
-              <div class="works-container__topics__card__mask">
-                <span>Photo magic</span>
-              </div>
-            </div>
+        <section class="footer">
+          <span>FaqToff</span>
+
+          <div class="social-buttons">
+            <a class="linkedin" href="#"></a>
+            <a class="github" href="#"></a>
+            <a class="twitter" href="#"></a>
+            <a class="instagram" href="#"></a>
           </div>
         </section>
 
