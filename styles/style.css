@@ -442,6 +442,9 @@ textarea {
   .experience-container__topics {
     flex-direction: column;
   }
+  .experience-container__topics__card:last-of-type {
+    margin-top: 16px;
+  }
   /* Works */
   .works-container__topics {
     display: flex;
